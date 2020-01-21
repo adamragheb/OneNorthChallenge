@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        body {
+            box-sizing: inherit;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: none;
+        }
+
+        #sortList {
+            border-radius: 0;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding: 7px;
+            margin-bottom: 10px;
+            border-radius: none;
+            width: 100px;
+            background: url(https://img.icons8.com/metro/26/000000/expand-arrow.png) 94% / 12% no-repeat #eee;
+        }
+
+        button {
+            border-radius: 0;
+            padding: 10px 15px;
+            background: transparent;
+            outline: none;
+            transition: all ease 250ms;
+        }
+
+        .error_msg {
+            color: red;
+            font-size: 9pt;
+            display: block;
+            margin-top: 5px;
+        }
+
+        .deactivated {
+            display: none;
+            visibility: hidden;
+        }
+
+        .active {
+            display: block !important;
+        }
+
+        button:hover:not([disabled]) {
+            background-color: #007ABA;
+            color: #FFF;
+        }
+
+        button:disabled:hover {
+            background-color: inherit;
+            color: none;
+        }
+
+        #rootList {
+            height: calc((28px * 5) + 15px);
+            margin: 0;
+            padding: 10px 35px 0;
+            overflow: auto;
+            transition: ease 250ms;
+        }
+
+        #root {
+            border: 1px solid black;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            transition: ease 200ms;
+        }
+
+        ul li p {
+            display: inline-block;
+            margin: 0 0;
+        }
+
+        ul li:last-of-type {
+            margin-bottom: 0;
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <img src="http://res.cloudinary.com/dcezqqcqh/image/upload/v1534472942/Sort_Load_More_b19xy0.gif"> -->
+    <select name="sort-list" id="sortList">
+        <option value="">Sort Names</option>
+        <option value="Ascending" sort="asc">Ascending</option>
+        <option value="Descending" sort="desc">Descending</option>
+    </select>
+
+    <div id="root">
+        <ul id="rootList"></ul>
+    </div>
+    <br />
+    <button class="btn active">Load More</button>
+    <div class="error_msg deactivated">Sorry! there is no more names to show.</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+[{
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844e9",
+        "firstName": "Ruby",
+        "lastName": "Balistreri",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f03",
+            "name": "Tokyo"
+        }],
+        "title": "Partner"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844ef",
+        "firstName": "Kieran",
+        "lastName": "Bergstrom",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f07",
+            "name": "Hong Kong"
+        }],
+        "title": "Intern"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844e3",
+        "firstName": "Concepcion",
+        "lastName": "Bernier",
+        "offices": [{
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f05",
+                "name": "San Francisco"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f07",
+                "name": "Hong Kong"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f03",
+                "name": "Tokyo"
+            }
+        ],
+        "title": "Partner"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844e8",
+        "firstName": "Hayley",
+        "lastName": "Bode",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f06",
+            "name": "Boston"
+        }],
+        "title": "Associate"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d84505",
+        "firstName": "Therese",
+        "lastName": "Botsford",
+        "offices": [{
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f04",
+                "name": "London"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f01",
+                "name": "Chicago"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f07",
+                "name": "Hong Kong"
+            }
+        ],
+        "title": "Associate"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844ed",
+        "firstName": "Susie",
+        "lastName": "Brakus",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f01",
+            "name": "Chicago"
+        }],
+        "title": "Associate"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844f4",
+        "firstName": "Johnathan",
+        "lastName": "Cummerata",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f07",
+            "name": "Hong Kong"
+        }],
+        "title": "Partner"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844e0",
+        "firstName": "Ozella",
+        "lastName": "Denesik",
+        "offices": [{
+            "__v": 0,
+            "_id": "5afee71a395b041f3e321f01",
+            "name": "Chicago"
+        }],
+        "title": "Associate"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d844eb",
+        "firstName": "Grayce",
+        "lastName": "DuBuque",
+        "offices": [{
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f07",
+                "name": "Hong Kong"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f07",
+                "name": "Hong Kong"
+            }
+        ],
+        "title": "Intern"
+    },
+    {
+        "__v": 0,
+        "_id": "5afeeb1c7e56f124c6d84503",
+        "firstName": "Jose",
+        "lastName": "Eichmann",
+        "offices": [{
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f07",
+                "name": "Hong Kong"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f06",
+                "name": "Boston"
+            },
+            {
+                "__v": 0,
+                "_id": "5afee71a395b041f3e321f06",
+                "name": "Boston"
+            }
+        ],
+        "title": "Partner"
+    }
+]
